@@ -18,6 +18,6 @@ def total_tardies_for_all_students
 end
 
 def average_gpa_for_9th_grade
-  "SELECT AVG(grade) FROM students WHERE grade = 9 ;"
+  "SELECT AVG(grade) FROM students WHERE grade = 9.0 ;"
   
 end
